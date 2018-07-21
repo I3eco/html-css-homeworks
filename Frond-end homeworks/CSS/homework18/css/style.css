@@ -1,0 +1,28 @@
+table, th, td {
+	border: 1px solid #ead4d3;
+}
+table {
+	width: 1200px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+th {
+	font-size: 30px;
+	padding: 5px 25px;
+}
+td {
+	font-size: 20px;
+	padding: 5px 15px;
+}
+.tHeader {
+	background-color: #5b231d;
+	color: #c45850;
+}
+.dark {
+	background-color: #a5362c;
+	color: #f2a7a2;
+}
+.light {
+	background-color: #f2a7a2;
+	color: #a5362c;
+}

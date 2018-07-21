@@ -1,0 +1,47 @@
+div {
+	background-image: url("../images/product.jpg");
+	background-repeat : no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 600px;
+	height: 600px;
+	z-index: 0;
+}
+[class*="txt-"] {
+	position: absolute;
+}
+.txt-1 {
+	top: 115px;
+	left: 10px;
+	z-index: 2;
+}
+.txt-2 {
+	top: 115px;
+	left: 205px;
+	z-index: 2;
+}
+.txt-3 {
+	top: 165px;
+	left: 380px;
+	z-index: 2;
+}
+.txt-4 {
+	top: 248px;
+	left: 428px;
+	z-index: 2;
+}
+.txt-5 {
+	top: 378px;
+	left: 230px;
+	z-index: 2;
+}
+.txt-6 {
+	top: 442px;
+	left: 157px;
+	z-index: 2;
+}
+.txt-7 {
+	bottom: 125px;
+	right: 50px;
+	z-index: 1;
+}

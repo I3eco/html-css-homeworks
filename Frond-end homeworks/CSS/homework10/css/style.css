@@ -1,0 +1,9 @@
+body {
+	background-image: url("../images/earth.jpg");
+	background-repeat : no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+h1, p {
+	background-color: rgba(206, 214, 226, 0.5);
+}

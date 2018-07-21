@@ -1,0 +1,15 @@
+iframe {
+	width: 1280px;
+	height: 720px;
+	border: none;
+}
+.iframe {
+	width: 600px;
+	height: 450px;
+	border: none;
+}
+.site {
+	width: 1200px;
+	height: 800px;
+	border: none;
+}

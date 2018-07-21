@@ -1,0 +1,26 @@
+a {
+	text-decoration: none;
+}
+h1 {
+	text-align: center;
+}
+.homepg {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-style: italic;
+}
+.pg2 {
+	color: #CA3B2B;
+	text-shadow: 1px 2px 2px #a02a1c, 1px 2px 2px #7c170c, 2px 4px 2px #4f0d06;
+}
+.justify {
+	text-align: justify;
+}
+.bckgnd {
+	color: #fff;
+	background-color: blue;
+}
+.pstyle {
+	text-decoration: line-through;
+	font-size: 70px;
+}

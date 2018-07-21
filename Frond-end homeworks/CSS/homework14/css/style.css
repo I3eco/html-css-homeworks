@@ -1,0 +1,18 @@
+ol {
+	list-style-type: lower-alpha;
+}
+ul {
+	list-style-type: disc;
+}
+.icon {
+	margin: 15px;
+	padding: 0px;
+}
+.icon li{
+	list-style-type: none;
+	background-image: url("../images/bullet_icon.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 17px 17px;
+	padding-left: 24px;
+}

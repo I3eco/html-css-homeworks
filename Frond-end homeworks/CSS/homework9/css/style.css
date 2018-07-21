@@ -1,0 +1,31 @@
+h1, #id, .class {
+	background-color: #BFBBB8;
+}
+h1 {
+	color: #108914;
+	font-size: 60px;
+	font-weight: 900;
+	text-align: center;
+	padding: 0 10px 10px 10px;
+	text-shadow: 2px 2px 1px #ECD405, 4px 4px 1px #008542, 6px 6px 1px #00602e;
+	font-family: verdana;
+}
+#id {
+	color: #FE0002;
+	font-size: 50px;
+	font-weight: 800;
+	text-align: left;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	text-shadow: 2px 2px 1px #7B0001, 4px 4px 1px #2C0000;
+	font-family: arial;
+}
+.class {
+	color: #FFEE75;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: right;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	text-shadow: 4px 4px 1px #b5a74d;
+}

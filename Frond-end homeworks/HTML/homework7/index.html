@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Recipe</title>
+</head>
+<body>
+	<form action="index.html" method="POST" enctype="multipart/form-data">
+
+		<fieldset id="post-recipe">
+			<legend><strong><u>Публикуване на рецепта в сайта:</u></strong></legend>
+			
+			<div>
+				<label for="title"><strong>Въведете заглавие на рецептата:</strong></label><br>
+				<input type="text" name="title" id="title" required>
+			</div>
+
+			<br>
+
+			<div>
+				<label for="products"><strong>Въведете необходимите продукти:</strong></label><br>
+				<textarea name="products" id="products" cols="30" rows="10" required>
+				</textarea>
+			</div>
+
+			<br>
+
+			<div>
+				<label for="how-to-cook"><strong>Опишете начина на приготвяне:</strong></label><br>
+				<textarea name="cook" id="how-to-cook" cols="50" rows="15" required>
+				</textarea>
+			</div>
+
+			<br>
+
+			<div>
+				<label for="picture"><strong>Моля приложете снимка на сготвеното ястие:</strong></label><br>
+				<input type="file" name="picture" id="picture" required>
+			</div>
+
+			<br>
+
+			<div>
+				<label><strong>Посочете дали ястието съдържа някой от изброените алергени:</strong></label><br>
+				<input type="checkbox" name="milk" id="milk" value="agree">
+				<label for="milk">Мляко;</label><br>
+				<input type="checkbox" name="soy" id="soy" value="agree">
+				<label for="soy">Соя;</label><br>
+				<input type="checkbox" name="honey" id="honey" value="agree">
+				<label for="honey">Мед;</label><br>
+				<input type="checkbox" name="onion" id="onion" value="agree">
+				<label for="onion">Лук;</label><br>
+				<input type="checkbox" name="garlic" id="garlic" value="agree">
+				<label for="garlic">Чесън;</label><br>
+				<input type="checkbox" name="eggs" id="eggs" value="agree">
+				<label for="eggs">Яйца.</label>
+			</div>
+
+			<br>
+
+			<div>
+				<label for="cooking"><strong>Посочете време за приготвяне:</strong></label><br>
+				<input type="number" name="timeForCooking" id="cooking" required>
+				<span>минути</span>
+			</div>
+
+			<br>
+
+			<div>
+				<input type="submit" value="Публикуване">
+			</div>
+
+		</fieldset>
+	</form>
+</body>
+</html>
